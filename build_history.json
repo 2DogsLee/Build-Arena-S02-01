@@ -1,0 +1,469 @@
+[
+  {
+    "op": "start",
+    "params": {
+      "init_shift": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "init_rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "note": "S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 1: Starting Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 1\n  Note: v4\uff1a\u53cd\u4f5c\u7528\u8f6e 4\u21928\uff08\u6bcf\u8f74\u52a0\u500d\uff09\uff0c\u63d0\u9ad8\u4f4e\u7a7a\u59ff\u6001\u63a7\u5236\u6743\u9650\uff0c\u538b\u5236\u98ce\u6807\u529b\u77e9\u5f15\u8d77\u7684 \u00b135\u00b0 \u6781\u9650\u73af\n\nAffected block:\n  Build ID 1: Starting Block\n    Attachment: root / no authored attachment\n    Position (build [East, North, Up]): [0.,8.,0.]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: The starting block\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [0.5,8. ,0. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 8. , 0. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [0. ,8. ,0.5], Facing towards <straight up>\n    Face f3: center (build [East, North, Up]): [ 0. , 8. ,-0.5], Facing towards <straight down>\n    Face f4: center (build [East, North, Up]): [0. ,8.5,0. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [0. ,7.5,0. ], Facing towards <South with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f3",
+      "new_block": "Fuel Barrel Big",
+      "note": "\u4e3b\u71c3\u6599\u8231\uff08100\u5355\u4f4d\uff09\uff0c\u4f4d\u4e8e\u8d77\u59cb\u5757\u4e0b\u65b9\uff0c\u4e3a 4 \u53f0 Booster \u76f4\u63a5\u4f9b\u6cb9\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 2: Fuel Barrel Big.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 2\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 2: Fuel Barrel Big\n    Attachment: from Build ID 1, face f3 (Starting Block) at [ 0. , 8. ,-0.5]\n    Position (build [East, North, Up]): [ 0., 8.,-2.]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u4e3b\u71c3\u6599\u8231\uff08100\u5355\u4f4d\uff09\uff0c\u4f4d\u4e8e\u8d77\u59cb\u5757\u4e0b\u65b9\uff0c\u4e3a 4 \u53f0 Booster \u76f4\u63a5\u4f9b\u6cb9\u3002\n  Attachable Faces:\n    Face f1: center (build [East, North, Up]): [ 0.5, 8.5,-0.5], Facing towards <straight up>\n    Face f2: center (build [East, North, Up]): [-0.5, 8.5,-0.5], Facing towards <straight up>\n    Face f3: center (build [East, North, Up]): [-0.5, 7.5,-0.5], Facing towards <straight up>\n    Face f4: center (build [East, North, Up]): [ 0.5, 7.5,-0.5], Facing towards <straight up>\n    Face f5: center (build [East, North, Up]): [ 1. , 8. ,-0.5], Facing towards <straight up>\n    Face f6: center (build [East, North, Up]): [-1. , 8. ,-0.5], Facing towards <straight up>\n    Face f7: center (build [East, North, Up]): [ 0. , 7. ,-0.5], Facing towards <straight up>\n    Face f8: center (build [East, North, Up]): [ 0. , 9. ,-0.5], Facing towards <straight up>\n    Face f9: center (build [East, North, Up]): [ 0. , 8. ,-3.5], Facing towards <straight down>\n    Face f10: center (build [East, North, Up]): [ 1.5, 8. ,-1. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f11: center (build [East, North, Up]): [ 1.5, 8. ,-2. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f12: center (build [East, North, Up]): [ 1.5, 8. ,-3. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f13: center (build [East, North, Up]): [-1.5, 8. ,-1. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f14: center (build [East, North, Up]): [-1.5, 8. ,-2. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f15: center (build [East, North, Up]): [-1.5, 8. ,-3. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f16: center (build [East, North, Up]): [ 0. , 9.5,-1. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f17: center (build [East, North, Up]): [ 0. , 9.5,-2. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f18: center (build [East, North, Up]): [ 0. , 9.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f19: center (build [East, North, Up]): [ 0. , 6.5,-1. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f20: center (build [East, North, Up]): [ 0. , 6.5,-2. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f21: center (build [East, North, Up]): [ 0. , 6.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f22: center (build [East, North, Up]): [ 0.5, 7.5,-3.5], Facing towards <straight down>\n    Face f23: center (build [East, North, Up]): [-0.5, 7.5,-3.5], Facing towards <straight down>\n    Face f24: center (build [East, North, Up]): [-0.5, 8.5,-3.5], Facing towards <straight down>\n    Face f25: center (build [East, North, Up]): [ 0.5, 8.5,-3.5], Facing towards <straight down>\n    Face f26: center (build [East, North, Up]): [ 1. , 8. ,-3.5], Facing towards <straight down>\n    Face f27: center (build [East, North, Up]): [-1. , 8. ,-3.5], Facing towards <straight down>\n    Face f28: center (build [East, North, Up]): [ 0. , 7. ,-3.5], Facing towards <straight down>\n    Face f29: center (build [East, North, Up]): [ 0. , 9. ,-3.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f22",
+      "new_block": "Booster",
+      "note": "1\u53f7\u4e3b\u5f15\u64ce\uff0c\u76f4\u63a5\u5b89\u88c5\u5728\u4e3b\u71c3\u6599\u8231\u5e95\u9762\u7684\u5185\u5708\u6302\u70b9\uff08\u4fdd\u8bc1\u771f\u7a7a\u4f9b\u6cb9\uff09\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 3: Booster.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 3\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 3: Booster\n    Attachment: from Build ID 2, face f22 (Fuel Barrel Big) at [ 0.5, 7.5,-3.5]\n    Position (build [East, North, Up]): [ 0.5, 7.5,-4. ]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: 1\u53f7\u4e3b\u5f15\u64ce\uff0c\u76f4\u63a5\u5b89\u88c5\u5728\u4e3b\u71c3\u6599\u8231\u5e95\u9762\u7684\u5185\u5708\u6302\u70b9\uff08\u4fdd\u8bc1\u771f\u7a7a\u4f9b\u6cb9\uff09\u3002\n  Description (build):\n    Thrust is directed away from the mount face toward <straight down>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 8. ,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [ 0.5, 7. ,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 1. , 7.5,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. , 7.5,-4. ], Facing towards <West with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f23",
+      "new_block": "Booster",
+      "note": "2\u53f7\u4e3b\u5f15\u64ce\uff0c\u76f4\u63a5\u5b89\u88c5\u5728\u4e3b\u71c3\u6599\u8231\u5e95\u9762\u5185\u5708\u6302\u70b9\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 4: Booster.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 4\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 4: Booster\n    Attachment: from Build ID 2, face f23 (Fuel Barrel Big) at [-0.5, 7.5,-3.5]\n    Position (build [East, North, Up]): [-0.5, 7.5,-4. ]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: 2\u53f7\u4e3b\u5f15\u64ce\uff0c\u76f4\u63a5\u5b89\u88c5\u5728\u4e3b\u71c3\u6599\u8231\u5e95\u9762\u5185\u5708\u6302\u70b9\u3002\n  Description (build):\n    Thrust is directed away from the mount face toward <straight down>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-0.5, 8. ,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 7. ,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. , 7.5,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-1. , 7.5,-4. ], Facing towards <West with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f24",
+      "new_block": "Booster",
+      "note": "3\u53f7\u4e3b\u5f15\u64ce\uff0c\u76f4\u63a5\u5b89\u88c5\u5728\u4e3b\u71c3\u6599\u8231\u5e95\u9762\u5185\u5708\u6302\u70b9\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 5: Booster.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 5\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 5: Booster\n    Attachment: from Build ID 2, face f24 (Fuel Barrel Big) at [-0.5, 8.5,-3.5]\n    Position (build [East, North, Up]): [-0.5, 8.5,-4. ]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: 3\u53f7\u4e3b\u5f15\u64ce\uff0c\u76f4\u63a5\u5b89\u88c5\u5728\u4e3b\u71c3\u6599\u8231\u5e95\u9762\u5185\u5708\u6302\u70b9\u3002\n  Description (build):\n    Thrust is directed away from the mount face toward <straight down>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-0.5, 9. ,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 8. ,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. , 8.5,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-1. , 8.5,-4. ], Facing towards <West with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f25",
+      "new_block": "Booster",
+      "note": "4\u53f7\u4e3b\u5f15\u64ce\uff0c\u76f4\u63a5\u5b89\u88c5\u5728\u4e3b\u71c3\u6599\u8231\u5e95\u9762\u5185\u5708\u6302\u70b9\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 6: Booster.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 6\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 6: Booster\n    Attachment: from Build ID 2, face f25 (Fuel Barrel Big) at [ 0.5, 8.5,-3.5]\n    Position (build [East, North, Up]): [ 0.5, 8.5,-4. ]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: 4\u53f7\u4e3b\u5f15\u64ce\uff0c\u76f4\u63a5\u5b89\u88c5\u5728\u4e3b\u71c3\u6599\u8231\u5e95\u9762\u5185\u5708\u6302\u70b9\u3002\n  Description (build):\n    Thrust is directed away from the mount face toward <straight down>.\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 9. ,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [ 0.5, 8. ,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 1. , 8.5,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. , 8.5,-4. ], Facing towards <West with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f12",
+      "new_block": "Double Wooden Block",
+      "note": "\u4e1c\u4fa7\u7740\u9646\u817f\u6a2a\u6491\uff08\u5411\u5916 2 \u5355\u4f4d\uff0c\u811a\u70b9\u5728 x\u22482.5\uff09\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 7: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 7\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 7: Double Wooden Block\n    Attachment: from Build ID 2, face f12 (Fuel Barrel Big) at [ 1.5, 8. ,-3. ]\n    Position (build [East, North, Up]): [ 2.5, 8. ,-3. ]\n    Facing (build compass): <East with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u4e1c\u4fa7\u7740\u9646\u817f\u6a2a\u6491\uff08\u5411\u5916 2 \u5355\u4f4d\uff0c\u811a\u70b9\u5728 x\u22482.5\uff09\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 2. , 8. ,-2.5], Facing towards <straight up>\n    Face f1: center (build [East, North, Up]): [ 2. , 8. ,-3.5], Facing towards <straight down>\n    Face f2: center (build [East, North, Up]): [ 2. , 8.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 2. , 7.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 3. , 8. ,-2.5], Facing towards <straight up>\n    Face f6: center (build [East, North, Up]): [ 3. , 8. ,-3.5], Facing towards <straight down>\n    Face f7: center (build [East, North, Up]): [ 3. , 8.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 3. , 7.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 3.5, 8. ,-3. ], Facing towards <East with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 7,
+      "face": "f1",
+      "new_block": "Double Wooden Block",
+      "note": "\u4e1c\u4fa7\u7740\u9646\u817f\u7ad6\u6491\uff08\u5411\u4e0b 2 \u5355\u4f4d\uff0c\u811a\u5e95 z=-5.5\uff09\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 8: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 8\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 8: Double Wooden Block\n    Attachment: from Build ID 7, face f1 (Double Wooden Block) at [ 2. , 8. ,-3.5]\n    Position (build [East, North, Up]): [ 2. , 8. ,-4.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u4e1c\u4fa7\u7740\u9646\u817f\u7ad6\u6491\uff08\u5411\u4e0b 2 \u5355\u4f4d\uff0c\u811a\u5e95 z=-5.5\uff09\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 2.5, 8. ,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [ 1.5, 8. ,-4. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 2. , 8.5,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 2. , 7.5,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 2.5, 8. ,-5. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [ 1.5, 8. ,-5. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 2. , 8.5,-5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 2. , 7.5,-5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 2. , 8. ,-5.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f15",
+      "new_block": "Double Wooden Block",
+      "note": "\u897f\u4fa7\u7740\u9646\u817f\u6a2a\u6491\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 9: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 9\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 9: Double Wooden Block\n    Attachment: from Build ID 2, face f15 (Fuel Barrel Big) at [-1.5, 8. ,-3. ]\n    Position (build [East, North, Up]): [-2.5, 8. ,-3. ]\n    Facing (build compass): <West with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u897f\u4fa7\u7740\u9646\u817f\u6a2a\u6491\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-2. , 8. ,-3.5], Facing towards <straight down>\n    Face f1: center (build [East, North, Up]): [-2. , 8. ,-2.5], Facing towards <straight up>\n    Face f2: center (build [East, North, Up]): [-2. , 8.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-2. , 7.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [-3. , 8. ,-3.5], Facing towards <straight down>\n    Face f6: center (build [East, North, Up]): [-3. , 8. ,-2.5], Facing towards <straight up>\n    Face f7: center (build [East, North, Up]): [-3. , 8.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [-3. , 7.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [-3.5, 8. ,-3. ], Facing towards <West with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 9,
+      "face": "f0",
+      "new_block": "Double Wooden Block",
+      "note": "\u897f\u4fa7\u7740\u9646\u817f\u7ad6\u6491\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 10: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 10\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 10: Double Wooden Block\n    Attachment: from Build ID 9, face f0 (Double Wooden Block) at [-2. , 8. ,-3.5]\n    Position (build [East, North, Up]): [-2. , 8. ,-4.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u897f\u4fa7\u7740\u9646\u817f\u7ad6\u6491\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-1.5, 8. ,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-2.5, 8. ,-4. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [-2. , 8.5,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-2. , 7.5,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [-1.5, 8. ,-5. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-2.5, 8. ,-5. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [-2. , 8.5,-5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [-2. , 7.5,-5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [-2. , 8. ,-5.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f18",
+      "new_block": "Double Wooden Block",
+      "note": "\u5317\u4fa7\u7740\u9646\u817f\u6a2a\u6491\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 11: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 11\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 11: Double Wooden Block\n    Attachment: from Build ID 2, face f18 (Fuel Barrel Big) at [ 0. , 9.5,-3. ]\n    Position (build [East, North, Up]): [ 0. ,10.5,-3. ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5317\u4fa7\u7740\u9646\u817f\u6a2a\u6491\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5,10. ,-3. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5,10. ,-3. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. ,10. ,-2.5], Facing towards <straight up>\n    Face f3: center (build [East, North, Up]): [ 0. ,10. ,-3.5], Facing towards <straight down>\n    Face f5: center (build [East, North, Up]): [ 0.5,11. ,-3. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5,11. ,-3. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. ,11. ,-2.5], Facing towards <straight up>\n    Face f8: center (build [East, North, Up]): [ 0. ,11. ,-3.5], Facing towards <straight down>\n    Face f9: center (build [East, North, Up]): [ 0. ,11.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 11,
+      "face": "f3",
+      "new_block": "Double Wooden Block",
+      "note": "\u5317\u4fa7\u7740\u9646\u817f\u7ad6\u6491\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 12: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 12\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 12: Double Wooden Block\n    Attachment: from Build ID 11, face f3 (Double Wooden Block) at [ 0. ,10. ,-3.5]\n    Position (build [East, North, Up]): [ 0. ,10. ,-4.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5317\u4fa7\u7740\u9646\u817f\u7ad6\u6491\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5,10. ,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5,10. ,-4. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. ,10.5,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. , 9.5,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0.5,10. ,-5. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5,10. ,-5. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. ,10.5,-5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 0. , 9.5,-5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 0. ,10. ,-5.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f21",
+      "new_block": "Double Wooden Block",
+      "note": "\u5357\u4fa7\u7740\u9646\u817f\u6a2a\u6491\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 13: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 13\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 13: Double Wooden Block\n    Attachment: from Build ID 2, face f21 (Fuel Barrel Big) at [ 0. , 6.5,-3. ]\n    Position (build [East, North, Up]): [ 0. , 5.5,-3. ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5357\u4fa7\u7740\u9646\u817f\u6a2a\u6491\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 6. ,-3. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 6. ,-3. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. , 6. ,-3.5], Facing towards <straight down>\n    Face f3: center (build [East, North, Up]): [ 0. , 6. ,-2.5], Facing towards <straight up>\n    Face f5: center (build [East, North, Up]): [ 0.5, 5. ,-3. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5, 5. ,-3. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. , 5. ,-3.5], Facing towards <straight down>\n    Face f8: center (build [East, North, Up]): [ 0. , 5. ,-2.5], Facing towards <straight up>\n    Face f9: center (build [East, North, Up]): [ 0. , 4.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 13,
+      "face": "f2",
+      "new_block": "Double Wooden Block",
+      "note": "\u5357\u4fa7\u7740\u9646\u817f\u7ad6\u6491\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 14: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 14\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 14: Double Wooden Block\n    Attachment: from Build ID 13, face f2 (Double Wooden Block) at [ 0. , 6. ,-3.5]\n    Position (build [East, North, Up]): [ 0. , 6. ,-4.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5357\u4fa7\u7740\u9646\u817f\u7ad6\u6491\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 6. ,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 6. ,-4. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. , 6.5,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. , 5.5,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0.5, 6. ,-5. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5, 6. ,-5. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. , 6.5,-5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 0. , 5.5,-5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 0. , 6. ,-5.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f11",
+      "new_block": "Grid Fin",
+      "note": "\u4e1c\u4fa7\u683c\u6805\u5c3e\u7ffc\uff08\u5c3e\u90e8\u6c14\u52a8\u7a33\u5b9a\uff09\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 15: Grid Fin.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 15\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 15: Grid Fin\n    Attachment: from Build ID 2, face f11 (Fuel Barrel Big) at [ 1.5, 8. ,-2. ]\n    Position (build [East, North, Up]): [ 2.25, 8.  ,-2.  ]\n    Facing (build compass): <East with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u4e1c\u4fa7\u683c\u6805\u5c3e\u7ffc\uff08\u5c3e\u90e8\u6c14\u52a8\u7a33\u5b9a\uff09\u3002\n  Description (build):\n    Grid-fin airflow-facing side faces toward <North with 0.0\u00b0 pitch>. The long direction of the fin surface runs toward <East with -0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f14",
+      "new_block": "Grid Fin",
+      "note": "\u897f\u4fa7\u683c\u6805\u5c3e\u7ffc\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 16: Grid Fin.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 16\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 16: Grid Fin\n    Attachment: from Build ID 2, face f14 (Fuel Barrel Big) at [-1.5, 8. ,-2. ]\n    Position (build [East, North, Up]): [-2.25, 8.  ,-2.  ]\n    Facing (build compass): <West with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u897f\u4fa7\u683c\u6805\u5c3e\u7ffc\u3002\n  Description (build):\n    Grid-fin airflow-facing side faces toward <North with 0.0\u00b0 pitch>. The long direction of the fin surface runs toward <West with -0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f17",
+      "new_block": "Grid Fin",
+      "note": "\u5317\u4fa7\u683c\u6805\u5c3e\u7ffc\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 17: Grid Fin.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 17\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 17: Grid Fin\n    Attachment: from Build ID 2, face f17 (Fuel Barrel Big) at [ 0. , 9.5,-2. ]\n    Position (build [East, North, Up]): [ 0.  ,10.25,-2.  ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5317\u4fa7\u683c\u6805\u5c3e\u7ffc\u3002\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight up>. The long direction of the fin surface runs toward <North with 0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 2,
+      "face": "f20",
+      "new_block": "Grid Fin",
+      "note": "\u5357\u4fa7\u683c\u6805\u5c3e\u7ffc\uff08\u968f\u540e twist 90\u00b0 \u4f7f\u5176\u6210\u4e3a\u7ad6\u76f4\u7ffc\u9762\uff09\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 18: Grid Fin.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 18\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 18: Grid Fin\n    Attachment: from Build ID 2, face f20 (Fuel Barrel Big) at [ 0. , 6.5,-2. ]\n    Position (build [East, North, Up]): [ 0.  , 5.75,-2.  ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5357\u4fa7\u683c\u6805\u5c3e\u7ffc\uff08\u968f\u540e twist 90\u00b0 \u4f7f\u5176\u6210\u4e3a\u7ad6\u76f4\u7ffc\u9762\uff09\u3002\n  Description (build):\n    Grid-fin airflow-facing side faces toward <straight down>. The long direction of the fin surface runs toward <South with -0.0\u00b0 pitch>."
+  },
+  {
+    "op": "twist_block",
+    "params": {
+      "block_id": 17,
+      "angle": 90.0
+    },
+    "result": "Operation result:\n  The block 17 <Grid Fin> is twisted by 90.0 degrees. \n   Build ID 17: Grid Fin\n    Attachment: from Build ID 2, face f17 (Fuel Barrel Big) at [ 0. , 9.5,-2. ]\n    Position (build [East, North, Up]): [ 0.  ,10.25,-2.  ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5317\u4fa7\u683c\u6805\u5c3e\u7ffc\u3002\n  Description (build):\n    Grid-fin airflow-facing side faces toward <West with -0.0\u00b0 pitch>. The long direction of the fin surface runs toward <North with 0.0\u00b0 pitch>."
+  },
+  {
+    "op": "twist_block",
+    "params": {
+      "block_id": 18,
+      "angle": 90.0
+    },
+    "result": "Operation result:\n  The block 18 <Grid Fin> is twisted by 90.0 degrees. \n   Build ID 18: Grid Fin\n    Attachment: from Build ID 2, face f20 (Fuel Barrel Big) at [ 0. , 6.5,-2. ]\n    Position (build [East, North, Up]): [ 0.  , 5.75,-2.  ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5357\u4fa7\u683c\u6805\u5c3e\u7ffc\uff08\u968f\u540e twist 90\u00b0 \u4f7f\u5176\u6210\u4e3a\u7ad6\u76f4\u7ffc\u9762\uff09\u3002\n  Description (build):\n    Grid-fin airflow-facing side faces toward <West with 0.0\u00b0 pitch>. The long direction of the fin surface runs toward <South with -0.0\u00b0 pitch>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f0",
+      "new_block": "Reaction Steering Block",
+      "note": "\u4e1c\u4fa7\u53cd\u4f5c\u7528\u8f6e\uff08\u63a7\u5236\u8f74 East/X\uff09\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 19: Reaction Steering Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 19\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 19: Reaction Steering Block\n    Attachment: from Build ID 1, face f0 (Starting Block) at [0.5,8. ,0. ]\n    Position (build [East, North, Up]): [0.75,8.  ,0.  ]\n    Facing (build compass): <East with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u4e1c\u4fa7\u53cd\u4f5c\u7528\u8f6e\uff08\u63a7\u5236\u8f74 East/X\uff09\u3002\n  Description (build):\n    Reaction-wheel control axis aligns with <East with 0.0\u00b0 pitch>. Positive spin: Rolling towards <North with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <South with 0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f1",
+      "new_block": "Reaction Steering Block",
+      "note": "\u897f\u4fa7\u53cd\u4f5c\u7528\u8f6e\uff08\u63a7\u5236\u8f74 West/-X\uff09\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 20: Reaction Steering Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 20\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 20: Reaction Steering Block\n    Attachment: from Build ID 1, face f1 (Starting Block) at [-0.5, 8. , 0. ]\n    Position (build [East, North, Up]): [-0.75, 8.  , 0.  ]\n    Facing (build compass): <West with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u897f\u4fa7\u53cd\u4f5c\u7528\u8f6e\uff08\u63a7\u5236\u8f74 West/-X\uff09\u3002\n  Description (build):\n    Reaction-wheel control axis aligns with <West with 0.0\u00b0 pitch>. Positive spin: Rolling towards <South with -0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <North with 0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f4",
+      "new_block": "Reaction Steering Block",
+      "note": "\u5317\u4fa7\u53cd\u4f5c\u7528\u8f6e\uff08\u63a7\u5236\u8f74 North/Y\uff0c\u4e3b\u4fef\u4ef0\u8f74\uff09\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 21: Reaction Steering Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 21\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 21: Reaction Steering Block\n    Attachment: from Build ID 1, face f4 (Starting Block) at [0. ,8.5,0. ]\n    Position (build [East, North, Up]): [0.  ,8.75,0.  ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5317\u4fa7\u53cd\u4f5c\u7528\u8f6e\uff08\u63a7\u5236\u8f74 North/Y\uff0c\u4e3b\u4fef\u4ef0\u8f74\uff09\u3002\n  Description (build):\n    Reaction-wheel control axis aligns with <North with 0.0\u00b0 pitch>. Positive spin: Rolling towards <West with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <East with 0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f5",
+      "new_block": "Reaction Steering Block",
+      "note": "\u5357\u4fa7\u53cd\u4f5c\u7528\u8f6e\uff08\u63a7\u5236\u8f74 South/-Y\uff09\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 22: Reaction Steering Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 22\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 22: Reaction Steering Block\n    Attachment: from Build ID 1, face f5 (Starting Block) at [0. ,7.5,0. ]\n    Position (build [East, North, Up]): [0.  ,7.25,0.  ]\n    Facing (build compass): <South with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5357\u4fa7\u53cd\u4f5c\u7528\u8f6e\uff08\u63a7\u5236\u8f74 South/-Y\uff09\u3002\n  Description (build):\n    Reaction-wheel control axis aligns with <South with 0.0\u00b0 pitch>. Positive spin: Rolling towards <East with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <West with -0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f2",
+      "new_block": "Decoupler",
+      "note": "\u8f7d\u8377\u5206\u79bb\u5668\uff1a\u5b89\u88c5\u5728\u8d77\u59cb\u5757\u9876\u9762\uff0c\u89e6\u53d1\u540e\u4e0e\u52a9\u63a8\u7ea7\u5206\u79bb\u5e76\u628a\u8f7d\u8377\u63a8\u5f00\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 23: Decoupler.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 23\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 23: Decoupler\n    Attachment: from Build ID 1, face f2 (Starting Block) at [0. ,8. ,0.5]\n    Position (build [East, North, Up]): [0.,8.,1.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u8f7d\u8377\u5206\u79bb\u5668\uff1a\u5b89\u88c5\u5728\u8d77\u59cb\u5757\u9876\u9762\uff0c\u89e6\u53d1\u540e\u4e0e\u52a9\u63a8\u7ea7\u5206\u79bb\u5e76\u628a\u8f7d\u8377\u63a8\u5f00\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [0. ,8. ,1.5], Facing towards <straight up>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 23,
+      "face": "f0",
+      "new_block": "Log",
+      "note": "\u8f7d\u8377\u672c\u4f53 1/5\uff08\u6838\u5fc3\u8231\uff09\uff0c\u65e0\u52a8\u529b\u7ed3\u6784\u5757\u3002"
+    },
+    "result": "Operation result:\n  Added Build ID 24: Log.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 24\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 24: Log\n    Attachment: from Build ID 23, face f0 (Decoupler) at [0. ,8. ,1.5]\n    Position (build [East, North, Up]): [0.,8.,3.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u8f7d\u8377\u672c\u4f53 1/5\uff08\u6838\u5fc3\u8231\uff09\uff0c\u65e0\u52a8\u529b\u7ed3\u6784\u5757\u3002\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [0.5,8. ,2. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 8. , 2. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [-0. , 7.5, 2. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [0. ,8.5,2. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [0.5,8. ,3. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5, 8. , 3. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [0. ,7.5,3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [0. ,8.5,3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [0.5,8. ,4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f10: center (build [East, North, Up]): [-0.5, 8. , 4. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f11: center (build [East, North, Up]): [0. ,7.5,4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f12: center (build [East, North, Up]): [0. ,8.5,4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f13: center (build [East, North, Up]): [0. ,8. ,4.5], Facing towards <straight up>"
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 23
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 23: Decoupler>."
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 24
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 24: Log>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 1,
+      "face": "f2",
+      "new_block": "Fuel Barrel Big",
+      "note": "\u7b2c\u4e8c\u4e3b\u71c3\u6599\u8231\uff08100\u5355\u4f4d\uff0cv2 \u589e\u7a0b\uff09\uff1a\u4f4d\u4e8e\u8d77\u59cb\u5757\u4e0a\u65b9\uff0c\u7ecf Fuel Line \u4e0e\u4e0b\u71c3\u6599\u8231\u8fde\u901a\u4f9b\u6cb9"
+    },
+    "result": "Operation result:\n  Added Build ID 25: Fuel Barrel Big.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 23\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 25: Fuel Barrel Big\n    Attachment: from Build ID 1, face f2 (Starting Block) at [0. ,8. ,0.5]\n    Position (build [East, North, Up]): [0.,8.,2.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u7b2c\u4e8c\u4e3b\u71c3\u6599\u8231\uff08100\u5355\u4f4d\uff0cv2 \u589e\u7a0b\uff09\uff1a\u4f4d\u4e8e\u8d77\u59cb\u5757\u4e0a\u65b9\uff0c\u7ecf Fuel Line \u4e0e\u4e0b\u71c3\u6599\u8231\u8fde\u901a\u4f9b\u6cb9\n  Attachable Faces:\n    Face f1: center (build [East, North, Up]): [0.5,7.5,0.5], Facing towards <straight down>\n    Face f2: center (build [East, North, Up]): [-0.5, 7.5, 0.5], Facing towards <straight down>\n    Face f3: center (build [East, North, Up]): [-0.5, 8.5, 0.5], Facing towards <straight down>\n    Face f4: center (build [East, North, Up]): [0.5,8.5,0.5], Facing towards <straight down>\n    Face f5: center (build [East, North, Up]): [1. ,8. ,0.5], Facing towards <straight down>\n    Face f6: center (build [East, North, Up]): [-1. , 8. , 0.5], Facing towards <straight down>\n    Face f7: center (build [East, North, Up]): [0. ,9. ,0.5], Facing towards <straight down>\n    Face f8: center (build [East, North, Up]): [0. ,7. ,0.5], Facing towards <straight down>\n    Face f9: center (build [East, North, Up]): [0. ,8. ,3.5], Facing towards <straight up>\n    Face f10: center (build [East, North, Up]): [1.5,8. ,1. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f11: center (build [East, North, Up]): [1.5,8. ,2. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f12: center (build [East, North, Up]): [1.5,8. ,3. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f13: center (build [East, North, Up]): [-1.5, 8. , 1. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f14: center (build [East, North, Up]): [-1.5, 8. , 2. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f15: center (build [East, North, Up]): [-1.5, 8. , 3. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f16: center (build [East, North, Up]): [0. ,6.5,1. ], Facing towards <South with 0.0\u00b0 pitch>\n    Face f17: center (build [East, North, Up]): [0. ,6.5,2. ], Facing towards <South with 0.0\u00b0 pitch>\n    Face f18: center (build [East, North, Up]): [0. ,6.5,3. ], Facing towards <South with 0.0\u00b0 pitch>\n    Face f19: center (build [East, North, Up]): [0. ,9.5,1. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f20: center (build [East, North, Up]): [0. ,9.5,2. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f21: center (build [East, North, Up]): [0. ,9.5,3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f22: center (build [East, North, Up]): [0.5,8.5,3.5], Facing towards <straight up>\n    Face f23: center (build [East, North, Up]): [-0.5, 8.5, 3.5], Facing towards <straight up>\n    Face f24: center (build [East, North, Up]): [-0.5, 7.5, 3.5], Facing towards <straight up>\n    Face f25: center (build [East, North, Up]): [0.5,7.5,3.5], Facing towards <straight up>\n    Face f26: center (build [East, North, Up]): [1. ,8. ,3.5], Facing towards <straight up>\n    Face f27: center (build [East, North, Up]): [-1. , 8. , 3.5], Facing towards <straight up>\n    Face f28: center (build [East, North, Up]): [0. ,9. ,3.5], Facing towards <straight up>\n    Face f29: center (build [East, North, Up]): [0. ,7. ,3.5], Facing towards <straight up>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 25,
+      "face": "f9",
+      "new_block": "Decoupler",
+      "note": "\u8f7d\u8377\u5206\u79bb\u5668\uff08v2\uff09\uff1a\u5b89\u88c5\u5728\u4e0a\u71c3\u6599\u8231\u9876\u9762\u4e2d\u5fc3"
+    },
+    "result": "Operation result:\n  Added Build ID 26: Decoupler.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 24\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 26: Decoupler\n    Attachment: from Build ID 25, face f9 (Fuel Barrel Big) at [0. ,8. ,3.5]\n    Position (build [East, North, Up]): [0.,8.,4.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u8f7d\u8377\u5206\u79bb\u5668\uff08v2\uff09\uff1a\u5b89\u88c5\u5728\u4e0a\u71c3\u6599\u8231\u9876\u9762\u4e2d\u5fc3\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [0. ,8. ,4.5], Facing towards <straight up>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 26,
+      "face": "f0",
+      "new_block": "Log",
+      "note": "\u8f7d\u8377\u672c\u4f53\uff08v2\uff09\uff1a\u60f0\u6027\u7ed3\u6784\u5757\uff0c\u5750\u5728\u5206\u79bb\u5668\u4e0a"
+    },
+    "result": "Operation result:\n  Added Build ID 27: Log.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 25\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 27: Log\n    Attachment: from Build ID 26, face f0 (Decoupler) at [0. ,8. ,4.5]\n    Position (build [East, North, Up]): [0.,8.,6.]\n    Facing (build compass): <straight up>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u8f7d\u8377\u672c\u4f53\uff08v2\uff09\uff1a\u60f0\u6027\u7ed3\u6784\u5757\uff0c\u5750\u5728\u5206\u79bb\u5668\u4e0a\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [0.5,8. ,5. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 8. , 5. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [-0. , 7.5, 5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [0. ,8.5,5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [0.5,8. ,6. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5, 8. , 6. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [0. ,7.5,6. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [0. ,8.5,6. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [0.5,8. ,7. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f10: center (build [East, North, Up]): [-0.5, 8. , 7. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f11: center (build [East, North, Up]): [0. ,7.5,7. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f12: center (build [East, North, Up]): [0. ,8.5,7. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f13: center (build [East, North, Up]): [0. ,8. ,7.5], Facing towards <straight up>"
+  },
+  {
+    "op": "connect_blocks",
+    "params": {
+      "block_a": 2,
+      "face_a": "f10",
+      "block_b": 25,
+      "face_b": "f10",
+      "connector": "Fuel Line",
+      "note": "\u71c3\u6cb9\u7ba1 v2\uff1a\u8fde\u901a\u4e0a\u4e0b\u4e24\u4e2a\u4e3b\u71c3\u6599\u8231\uff08\u8de8\u5757\u4f9b\u6cb9\uff09\uff0c\u4fdd\u8bc1\u771f\u7a7a\u6bb5\u5f15\u64ce\u80fd\u4ece\u4e24\u8231\u53d6\u6cb9"
+    },
+    "result": "Operation result:\n  Added Build ID 28: Fuel Line.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 26\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 28: Fuel Line\n    Attachment: from Build ID 2, face f10 (Fuel Barrel Big) at [ 1.5, 8. ,-1. ]; to Build ID 25, face f10 (Fuel Barrel Big) at [1.5,8. ,1. ]\n    Position (build [East, North, Up]): [ 1.5, 8. ,-1. ]\n    Facing (build compass): <East with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u71c3\u6cb9\u7ba1 v2\uff1a\u8fde\u901a\u4e0a\u4e0b\u4e24\u4e2a\u4e3b\u71c3\u6599\u8231\uff08\u8de8\u5757\u4f9b\u6cb9\uff09\uff0c\u4fdd\u8bc1\u771f\u7a7a\u6bb5\u5f15\u64ce\u80fd\u4ece\u4e24\u8231\u53d6\u6cb9"
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 8
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 8: Double Wooden Block>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 7,
+      "face": "f9",
+      "new_block": "Double Wooden Block",
+      "note": "\u4e1c\u4fa7\u817f\u5916\u4f38\u6bb5\uff08v3 \u52a0\u5bbd\uff1a\u811a\u70b9\u534a\u5f84 2.5\u21924.5\uff0c\u63d0\u9ad8\u6297\u503e\u8986\uff09"
+    },
+    "result": "Operation result:\n  Added Build ID 29: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 26\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 29: Double Wooden Block\n    Attachment: from Build ID 7, face f9 (Double Wooden Block) at [ 3.5, 8. ,-3. ]\n    Position (build [East, North, Up]): [ 4.5, 8. ,-3. ]\n    Facing (build compass): <East with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u4e1c\u4fa7\u817f\u5916\u4f38\u6bb5\uff08v3 \u52a0\u5bbd\uff1a\u811a\u70b9\u534a\u5f84 2.5\u21924.5\uff0c\u63d0\u9ad8\u6297\u503e\u8986\uff09\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 4. , 8. ,-2.5], Facing towards <straight up>\n    Face f1: center (build [East, North, Up]): [ 4. , 8. ,-3.5], Facing towards <straight down>\n    Face f2: center (build [East, North, Up]): [ 4. , 8.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 4. , 7.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 5. , 8. ,-2.5], Facing towards <straight up>\n    Face f6: center (build [East, North, Up]): [ 5. , 8. ,-3.5], Facing towards <straight down>\n    Face f7: center (build [East, North, Up]): [ 5. , 8.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 5. , 7.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 5.5, 8. ,-3. ], Facing towards <East with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 29,
+      "face": "f1",
+      "new_block": "Double Wooden Block",
+      "note": "\u4e1c\u4fa7\u817f\u5916\u7aef\u7ad6\u6491\uff08\u811a\u5e95 z=-5.5\uff0c\u811a\u70b9\u534a\u5f84 4\uff09"
+    },
+    "result": "Operation result:\n  Added Build ID 30: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 27\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 30: Double Wooden Block\n    Attachment: from Build ID 29, face f1 (Double Wooden Block) at [ 4. , 8. ,-3.5]\n    Position (build [East, North, Up]): [ 4. , 8. ,-4.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u4e1c\u4fa7\u817f\u5916\u7aef\u7ad6\u6491\uff08\u811a\u5e95 z=-5.5\uff0c\u811a\u70b9\u534a\u5f84 4\uff09\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 4.5, 8. ,-4. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [ 3.5, 8. ,-4. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 4. , 8.5,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 4. , 7.5,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 4.5, 8. ,-5. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [ 3.5, 8. ,-5. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 4. , 8.5,-5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 4. , 7.5,-5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 4. , 8. ,-5.5], Facing towards <straight down>"
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 10
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 10: Double Wooden Block>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 9,
+      "face": "f9",
+      "new_block": "Double Wooden Block",
+      "note": "\u897f\u4fa7\u817f\u5916\u4f38\u6bb5\uff08v3 \u52a0\u5bbd\uff09"
+    },
+    "result": "Operation result:\n  Added Build ID 31: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 27\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 31: Double Wooden Block\n    Attachment: from Build ID 9, face f9 (Double Wooden Block) at [-3.5, 8. ,-3. ]\n    Position (build [East, North, Up]): [-4.5, 8. ,-3. ]\n    Facing (build compass): <West with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u897f\u4fa7\u817f\u5916\u4f38\u6bb5\uff08v3 \u52a0\u5bbd\uff09\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-4. , 8. ,-3.5], Facing towards <straight down>\n    Face f1: center (build [East, North, Up]): [-4. , 8. ,-2.5], Facing towards <straight up>\n    Face f2: center (build [East, North, Up]): [-4. , 8.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-4. , 7.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [-5. , 8. ,-3.5], Facing towards <straight down>\n    Face f6: center (build [East, North, Up]): [-5. , 8. ,-2.5], Facing towards <straight up>\n    Face f7: center (build [East, North, Up]): [-5. , 8.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [-5. , 7.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [-5.5, 8. ,-3. ], Facing towards <West with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 31,
+      "face": "f0",
+      "new_block": "Double Wooden Block",
+      "note": "\u897f\u4fa7\u817f\u5916\u7aef\u7ad6\u6491"
+    },
+    "result": "Operation result:\n  Added Build ID 32: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 28\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 32: Double Wooden Block\n    Attachment: from Build ID 31, face f0 (Double Wooden Block) at [-4. , 8. ,-3.5]\n    Position (build [East, North, Up]): [-4. , 8. ,-4.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u897f\u4fa7\u817f\u5916\u7aef\u7ad6\u6491\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [-3.5, 8. ,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-4.5, 8. ,-4. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [-4. , 8.5,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [-4. , 7.5,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [-3.5, 8. ,-5. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-4.5, 8. ,-5. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [-4. , 8.5,-5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [-4. , 7.5,-5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [-4. , 8. ,-5.5], Facing towards <straight down>"
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 12
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 12: Double Wooden Block>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 11,
+      "face": "f9",
+      "new_block": "Double Wooden Block",
+      "note": "\u5317\u4fa7\u817f\u5916\u4f38\u6bb5\uff08v3 \u52a0\u5bbd\uff09"
+    },
+    "result": "Operation result:\n  Added Build ID 33: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 28\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 33: Double Wooden Block\n    Attachment: from Build ID 11, face f9 (Double Wooden Block) at [ 0. ,11.5,-3. ]\n    Position (build [East, North, Up]): [ 0. ,12.5,-3. ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5317\u4fa7\u817f\u5916\u4f38\u6bb5\uff08v3 \u52a0\u5bbd\uff09\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5,12. ,-3. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5,12. ,-3. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. ,12. ,-2.5], Facing towards <straight up>\n    Face f3: center (build [East, North, Up]): [ 0. ,12. ,-3.5], Facing towards <straight down>\n    Face f5: center (build [East, North, Up]): [ 0.5,13. ,-3. ], Facing towards <East with 0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5,13. ,-3. ], Facing towards <West with 0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. ,13. ,-2.5], Facing towards <straight up>\n    Face f8: center (build [East, North, Up]): [ 0. ,13. ,-3.5], Facing towards <straight down>\n    Face f9: center (build [East, North, Up]): [ 0. ,13.5,-3. ], Facing towards <North with 0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 33,
+      "face": "f3",
+      "new_block": "Double Wooden Block",
+      "note": "\u5317\u4fa7\u817f\u5916\u7aef\u7ad6\u6491"
+    },
+    "result": "Operation result:\n  Added Build ID 34: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 29\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 34: Double Wooden Block\n    Attachment: from Build ID 33, face f3 (Double Wooden Block) at [ 0. ,12. ,-3.5]\n    Position (build [East, North, Up]): [ 0. ,12. ,-4.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5317\u4fa7\u817f\u5916\u7aef\u7ad6\u6491\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5,12. ,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5,12. ,-4. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. ,12.5,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. ,11.5,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0.5,12. ,-5. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5,12. ,-5. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. ,12.5,-5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 0. ,11.5,-5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 0. ,12. ,-5.5], Facing towards <straight down>"
+  },
+  {
+    "op": "remove_block",
+    "params": {
+      "block_id": 14
+    },
+    "result": "Operation result:\n  You have successfully removed <ID 14: Double Wooden Block>."
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 13,
+      "face": "f9",
+      "new_block": "Double Wooden Block",
+      "note": "\u5357\u4fa7\u817f\u5916\u4f38\u6bb5\uff08v3 \u52a0\u5bbd\uff09"
+    },
+    "result": "Operation result:\n  Added Build ID 35: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 29\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 35: Double Wooden Block\n    Attachment: from Build ID 13, face f9 (Double Wooden Block) at [ 0. , 4.5,-3. ]\n    Position (build [East, North, Up]): [ 0. , 3.5,-3. ]\n    Facing (build compass): <South with -0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5357\u4fa7\u817f\u5916\u4f38\u6bb5\uff08v3 \u52a0\u5bbd\uff09\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 4. ,-3. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 4. ,-3. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. , 4. ,-3.5], Facing towards <straight down>\n    Face f3: center (build [East, North, Up]): [ 0. , 4. ,-2.5], Facing towards <straight up>\n    Face f5: center (build [East, North, Up]): [ 0.5, 3. ,-3. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5, 3. ,-3. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. , 3. ,-3.5], Facing towards <straight down>\n    Face f8: center (build [East, North, Up]): [ 0. , 3. ,-2.5], Facing towards <straight up>\n    Face f9: center (build [East, North, Up]): [ 0. , 2.5,-3. ], Facing towards <South with -0.0\u00b0 pitch>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 35,
+      "face": "f2",
+      "new_block": "Double Wooden Block",
+      "note": "\u5357\u4fa7\u817f\u5916\u7aef\u7ad6\u6491"
+    },
+    "result": "Operation result:\n  Added Build ID 36: Double Wooden Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 30\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 36: Double Wooden Block\n    Attachment: from Build ID 35, face f2 (Double Wooden Block) at [ 0. , 4. ,-3.5]\n    Position (build [East, North, Up]): [ 0. , 4. ,-4.5]\n    Facing (build compass): <straight down>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: \u5357\u4fa7\u817f\u5916\u7aef\u7ad6\u6491\n  Attachable Faces:\n    Face f0: center (build [East, North, Up]): [ 0.5, 4. ,-4. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f1: center (build [East, North, Up]): [-0.5, 4. ,-4. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f2: center (build [East, North, Up]): [ 0. , 4.5,-4. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f3: center (build [East, North, Up]): [ 0. , 3.5,-4. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f5: center (build [East, North, Up]): [ 0.5, 4. ,-5. ], Facing towards <East with -0.0\u00b0 pitch>\n    Face f6: center (build [East, North, Up]): [-0.5, 4. ,-5. ], Facing towards <West with -0.0\u00b0 pitch>\n    Face f7: center (build [East, North, Up]): [ 0. , 4.5,-5. ], Facing towards <North with 0.0\u00b0 pitch>\n    Face f8: center (build [East, North, Up]): [ 0. , 3.5,-5. ], Facing towards <South with -0.0\u00b0 pitch>\n    Face f9: center (build [East, North, Up]): [ 0. , 4. ,-5.5], Facing towards <straight down>"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 25,
+      "face": "f11",
+      "new_block": "Reaction Steering Block",
+      "note": "v4 \u53cd\u4f5c\u7528\u8f6e 5/8\uff1a\u4e0a\u8231 +X \u9762\uff08\u4e0e 19 \u53f7\u540c\u8f74\uff0c\u52a0\u500d\u6743\u9650\uff09"
+    },
+    "result": "Operation result:\n  Added Build ID 37: Reaction Steering Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 31\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 37: Reaction Steering Block\n    Attachment: from Build ID 25, face f11 (Fuel Barrel Big) at [1.5,8. ,2. ]\n    Position (build [East, North, Up]): [1.75,8.  ,2.  ]\n    Facing (build compass): <East with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: v4 \u53cd\u4f5c\u7528\u8f6e 5/8\uff1a\u4e0a\u8231 +X \u9762\uff08\u4e0e 19 \u53f7\u540c\u8f74\uff0c\u52a0\u500d\u6743\u9650\uff09\n  Description (build):\n    Reaction-wheel control axis aligns with <East with 0.0\u00b0 pitch>. Positive spin: Rolling towards <North with 0.0\u00b0 pitch> with -0\u00b0 camber Opposite spin: Rolling towards <South with -0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 25,
+      "face": "f14",
+      "new_block": "Reaction Steering Block",
+      "note": "v4 \u53cd\u4f5c\u7528\u8f6e 6/8\uff1a\u4e0a\u8231 -X \u9762"
+    },
+    "result": "Operation result:\n  Added Build ID 38: Reaction Steering Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 32\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 38: Reaction Steering Block\n    Attachment: from Build ID 25, face f14 (Fuel Barrel Big) at [-1.5, 8. , 2. ]\n    Position (build [East, North, Up]): [-1.75, 8.  , 2.  ]\n    Facing (build compass): <West with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: v4 \u53cd\u4f5c\u7528\u8f6e 6/8\uff1a\u4e0a\u8231 -X \u9762\n  Description (build):\n    Reaction-wheel control axis aligns with <West with 0.0\u00b0 pitch>. Positive spin: Rolling towards <South with 0.0\u00b0 pitch> with -0\u00b0 camber Opposite spin: Rolling towards <North with 0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 25,
+      "face": "f20",
+      "new_block": "Reaction Steering Block",
+      "note": "v4 \u53cd\u4f5c\u7528\u8f6e 7/8\uff1a\u4e0a\u8231 +Y \u9762"
+    },
+    "result": "Operation result:\n  Added Build ID 39: Reaction Steering Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 33\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 39: Reaction Steering Block\n    Attachment: from Build ID 25, face f20 (Fuel Barrel Big) at [0. ,9.5,2. ]\n    Position (build [East, North, Up]): [0.  ,9.75,2.  ]\n    Facing (build compass): <North with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: v4 \u53cd\u4f5c\u7528\u8f6e 7/8\uff1a\u4e0a\u8231 +Y \u9762\n  Description (build):\n    Reaction-wheel control axis aligns with <North with 0.0\u00b0 pitch>. Positive spin: Rolling towards <West with 0.0\u00b0 pitch> with 0\u00b0 camber Opposite spin: Rolling towards <East with 0.0\u00b0 pitch> with 0\u00b0 camber"
+  },
+  {
+    "op": "attach_block_to",
+    "params": {
+      "base_block": 25,
+      "face": "f17",
+      "new_block": "Reaction Steering Block",
+      "note": "v4 \u53cd\u4f5c\u7528\u8f6e 8/8\uff1a\u4e0a\u8231 -Y \u9762"
+    },
+    "result": "Operation result:\n  Added Build ID 40: Reaction Steering Block.\n\nOverview:\n  Machine: s02v4_261018_161503\n  Structure source: authoring state / build history; not a runtime observation\n  Build history: D:\\projects\\build_arena\\entry_s02_20261018\\machine_v3.json\n  Blocks: 34\n  Note: S02 \u63a2\u9488/\u52a9\u63a8\u7ea7\uff1a\u5782\u76f4\u706b\u7bad\uff0c\u9876\u90e8\u8f7d\u8377\u5ea7\uff0c\u5e95\u90e8 4 \u5f15\u64ce + L \u5f62\u7740\u9646\u817f\uff1b\u7528\u4e8e\u63a8\u529b/\u71c3\u8017/\u963b\u529b/\u8f6e\u63a7\u6807\u5b9a\u3002\n\nAffected block:\n  Build ID 40: Reaction Steering Block\n    Attachment: from Build ID 25, face f17 (Fuel Barrel Big) at [0. ,6.5,2. ]\n    Position (build [East, North, Up]): [0.  ,6.25,2.  ]\n    Facing (build compass): <South with 0.0\u00b0 pitch>\n    Configuration (build): flipped=False; telemetry_target=False\n    Note: v4 \u53cd\u4f5c\u7528\u8f6e 8/8\uff1a\u4e0a\u8231 -Y \u9762\n  Description (build):\n    Reaction-wheel control axis aligns with <South with 0.0\u00b0 pitch>. Positive spin: Rolling towards <East with 0.0\u00b0 pitch> with -0\u00b0 camber Opposite spin: Rolling towards <West with -0.0\u00b0 pitch> with 0\u00b0 camber"
+  }
+]
